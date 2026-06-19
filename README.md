@@ -47,13 +47,15 @@ Built with **Node.js, Express 5, and MongoDB (Mongoose)**.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Deepanshuubnare/Bank-Transaction-System.git
-cd Bank-Transaction-System
+git clone https://github.com/Deepanshuubnare/Bank_Transaction_System.git
+cd Bank_Transaction_System
 
 # 2. Install dependencies
 npm install
 
-# 3. Create a .env file with your configuration
+# 3. Set up environment variables
+cp .env.example .env
+# then open .env and fill in your own values
 
 # 4. Run the server
 npm run dev      # development (nodemon, auto-reload)
@@ -97,11 +99,6 @@ Contributions, issues, and feature requests are welcome. Feel free to open an is
 
 ---
 
-## 📄 License
-
-This project is licensed under the **ISC License**.
-
----
 
 ## 👤 Author
 
